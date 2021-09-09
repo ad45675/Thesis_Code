@@ -1,0 +1,14 @@
+1.打開main_sac就可以run
+2.RL_brain_DDPG是 DDPG演算法  使用 tensorflow 1.14
+3.sac 是最最原本參考youtube的演算法
+4.sac2是建三個網路(value,actor,critic)的演算法
+5.sac4是建兩個網路(actor,critic)的演算法
+6.buffer是存放所有經驗的code
+7.env是2軸的環境(旺季兩個差在哪了，但差別不大)
+8.config可以調所有需要條的參數
+
+
+
+***********************調參注意***********************
+sac 裡有一個參數reward scale 不要設太大，也不要設負的會收斂不起來
+此參數是決定最後學到的動作有多隨機

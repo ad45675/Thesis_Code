@@ -1,0 +1,14 @@
+Max Episodes: 1000
+Max Episodes steps: 200
+Eval iteration: 10
+cost iteration: 50
+Method: sac
+BATCH_SIZE: 128
+hidden_sizes: [256, 256]
+LR_A: 0.001
+LR_C: 0.001
+GAMMA: 0.9
+TAU: 0.01
+MEMORY_CAPACITY: 100000
+reward_scale: 0.001
+Tolerance: 5
