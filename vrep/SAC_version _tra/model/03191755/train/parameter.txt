@@ -1,0 +1,14 @@
+Method: sac
+state: 33
+action: 3
+ a_bound:[0.02, 0.02, 0.02]
+Max Episodes: 10000
+Max Episodes steps: 1000
+LR_A: 0.001
+LR_C: 0.001
+GAMMA: 0.99
+reward_scale: 0.01
+tau: 0.005
+memory_capacity: 200000
+BATCH_SIZE: 256
+hidden_dim: [256, 256]
